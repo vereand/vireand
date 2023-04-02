@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            /* background-image: url("9-img.jpg");
+            background-repeat: no-repeat;
+            background-size: 200px; */
+            background-color: lightcoral;
+        }
+        h3{
+            text-align: center;
+        }
+        .img-1{
+            width: 100%;
+            /* height: 100px; */
+            background-color: blue;
+            transition: width 3s,height 3s,border-radius 2s,backgroud 4s,border 3s;
+            margin: 0;
+        }
+        .img-1:hover{
+         width: 350px;
+         height: 200px;
+         border-radius:100%;
+         background: red;
+         border:4px solid rgb(21, 9, 179);
+        }
+        .img-2{
+            width: 100%;
+            /* height: 100px; */
+            background-color: blue;
+            transition: width 3s,height 3s,border-radius 2s,backgroud 4s,border 3s;
+        }
+        .img-2:hover{
+         width: 350px;
+         height: 200px;
+         border-radius:100%;
+         background: red;
+         border:4px solid rgb(35, 140, 12);
+        }
+        .children{
+         /* position: absolute;
+         top: 80%; */
+         background-color: blue;
+         width: 95%;
+         text-align: center;
+         padding: 10px;
+         border-radius: 10px;
+         margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contaner">
+        <h3>Click on image</h3>
+        <img src="7-img.jpg" class="img-1" width="100%" height="345px">
+        <img src="8-img.jpg" class="img-1" width="100%" height="295px">
+        <div class="children">
+    <a href="http://127.0.0.1:5500/file-3.html" class="link-1" target="-main">NEXT</a>
+
+    </div>
+</body>
+</html>
